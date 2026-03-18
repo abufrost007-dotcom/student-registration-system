@@ -1,0 +1,4 @@
+ErrorDocument 404 /student_registration_system/404.php
+<FilesMatch "purge_and_reset\.sql">
+    Require all denied
+</FilesMatch>

@@ -1,0 +1,22 @@
+-- Add more units (20+ total per course)
+INSERT INTO units (course_id, lecturer_id, code, name, semester, year_level) VALUES
+(1, 1, 'DBIT-103', 'Information Systems', 'Semester 1', 1),
+(1, 2, 'DBIT-104', 'Data Communications', 'Semester 1', 1),
+(1, 3, 'DBIT-105', 'Discrete Structures', 'Semester 1', 1),
+(1, 1, 'DBIT-106', 'Web Design Fundamentals', 'Semester 1', 1),
+(1, 2, 'DBIT-107', 'Introduction to Programming II', 'Semester 2', 1),
+(1, 3, 'DBIT-108', 'Computer Architecture', 'Semester 2', 1),
+(1, 1, 'DBIT-202', 'Database Systems II', 'Semester 2', 2),
+(1, 2, 'DBIT-203', 'Mobile Application Dev', 'Semester 2', 2),
+(1, 3, 'DBIT-204', 'Networking Essentials', 'Semester 2', 2),
+(1, 1, 'DBIT-205', 'IT Project Management', 'Semester 2', 2),
+(1, 2, 'DBIT-206', 'Human Computer Interaction', 'Semester 2', 2),
+(1, 3, 'DBIT-207', 'Operating Systems', 'Semester 2', 2),
+(1, 1, 'DBIT-301', 'Cloud Computing', 'Semester 1', 3),
+(1, 2, 'DBIT-302', 'Data Analytics', 'Semester 1', 3),
+(1, 3, 'DBIT-303', 'Cybersecurity Basics', 'Semester 1', 3),
+(2, 1, 'BBIT-211', 'Business Intelligence', 'Semester 2', 2),
+(2, 2, 'BBIT-212', 'Enterprise Systems', 'Semester 2', 2),
+(2, 3, 'BBIT-213', 'E-Commerce Platforms', 'Semester 2', 2),
+(3, 1, 'CS-121', 'Algorithms I', 'Semester 1', 1),
+(3, 2, 'CS-122', 'Programming Paradigms', 'Semester 1', 1);

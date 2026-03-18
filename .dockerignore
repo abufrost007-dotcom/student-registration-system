@@ -1,0 +1,7 @@
+.git
+.gitignore
+node_modules
+vendor
+storage/*.log
+*.zip
+student_registration_system_inspect

@@ -1,0 +1,6 @@
+.env
+.git
+storage/
+assets/uploads/
+*.zip
+student_registration_system_inspect/

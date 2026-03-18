@@ -1,0 +1,18 @@
+FROM php:8.2-apache
+
+RUN apt-get update \
+    && docker-php-ext-install mysqli \
+    && a2dismod mpm_event mpm_worker \
+    && a2enmod mpm_prefork \
+    && a2enmod rewrite \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /var/www/html
+
+COPY . /var/www/html/
+
+RUN mkdir -p /var/www/html/assets/uploads /var/www/html/storage/sessions \
+    && chown -R www-data:www-data /var/www/html/assets/uploads /var/www/html/storage \
+    && chmod -R 775 /var/www/html/assets/uploads /var/www/html/storage
+
+EXPOSE 80
